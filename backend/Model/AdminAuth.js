@@ -21,7 +21,8 @@ const AdminAuthSchema = new mongoose.Schema({
     },
     companyName:{
         type:String,
-        required:[true , "company name is required"]
+        required:[true , "company name is required"],
+        unique:true
     },
     companyCapacity:{
         type:Number,

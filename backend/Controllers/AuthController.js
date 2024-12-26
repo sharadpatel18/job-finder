@@ -92,6 +92,8 @@ const Login = async (req, res) => {
         name: existedUser.name,
         email: existedUser.email,
         id:existedUser._id,
+        isAdmin:existedUser.isAdmin,
+        
         success: true,
       });
   } catch (error) {

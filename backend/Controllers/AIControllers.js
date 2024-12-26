@@ -4,7 +4,6 @@ const AiChat = require("../Model/AiModel");
 const chatWithAi = async (req, res) => {
   const { prompt, userId } = req.body;
  
-
   const existedResponce = await AiChat.findOne({
     prompt: prompt,
     userId: userId,

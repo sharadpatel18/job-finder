@@ -45,6 +45,15 @@ const Navbar = () => {
               <li>
                 <Link to="/">Contact</Link>
               </li>
+              {
+                responceData.isAdmin == true 
+                ?
+                <li>
+                  <Link to="/admin">Admin</Link>
+                </li>
+                :
+                null
+              }
             </ul>
           </div>
           {responceShow == true ? (

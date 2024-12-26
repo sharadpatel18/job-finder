@@ -410,20 +410,116 @@
 .job-container{
   width: 80vw;
   height: 90vh;
-  border: 1px solid black;
   display: flex;
+}
+
+.job-container div h1{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 20px 0px;
 }
 
 .job-filter{
   width: 20vw;
-  height: 90vh;
-  border: 1px solid black;
+  height: 110vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .job-title{
   width: 60vw;
   height: 90vh;
-  border: 1px solid black;
 } 
+
+.all-filter{
+  width: 15vw;
+  height: 110vh;
+  border: 1px solid rgba(0, 0, 0, 0.109);
+  margin: 0px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.catagory-filter{
+  width: 13vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  color: #000000ad;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.catagory-filter select{
+  border: 1px solid #00000023;
+  font-weight: 200;
+  margin: 10px 0px;
+}
+
+.job-type{
+  width: 13vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #00000031;
+}
+
+.job-type label{
+  font-size: 20px;
+  color: #000000ad;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+
+.job-type div label{
+  margin: 0px 5px;
+}
+
+
+.job-experience{
+  width: 13vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0px 0px 0px;
+  border-bottom: 1px solid #00000031;
+}
+
+.job-experience label{
+  font-size: 20px;
+  color: #000000ad;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+
+.job-experience div label{
+  margin: 0px 5px;
+}
+
+.job-posted{
+  width: 13vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0px 140px 0px;
+  border-bottom: 1px solid #00000031;
+}
+
+.job-posted label{
+  font-size: 20px;
+  color: #000000ad;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+
+.job-posted div label{
+  margin: 0px 5px;
+}
+

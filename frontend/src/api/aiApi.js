@@ -26,7 +26,7 @@ const getPromptBtId = async (Token, userId) => {
   try {
     console.log(`${Token}`);
 
-    const responce = await instance.post(`/getpromptbyid/${userId}`, null , {
+    const responce = await instance.get(`/getpromptbyid/${userId}` , {
       headers: {
         'authorization': `${Token}`,
       },
@@ -40,7 +40,7 @@ const getPromptBtId = async (Token, userId) => {
 const getOnePromptById = async (Token, id) => {
   try {
     console.log(Token);
-    const responce = await instance.post(`/getoneprompt/${id}`, null , {
+    const responce = await instance.get(`/getoneprompt/${id}` , {
       headers: {
         'authorization': `${Token}`,
       },
